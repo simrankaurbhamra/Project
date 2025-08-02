@@ -164,7 +164,7 @@ class AIRiskPredictor:
         
         return results, best_model
     
-    def save_models(self, models_dir='../models'):#../
+    def save_models(self, models_dir='models'):#../
         """Save trained models"""
         if not os.path.exists(models_dir):
             os.makedirs(models_dir)
